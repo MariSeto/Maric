@@ -24,7 +24,7 @@ public class Maric
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-
+TEST LINE FOR GITHUB
     public Maric()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
