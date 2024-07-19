@@ -1,6 +1,7 @@
 package net.mariseto.maric.item;
 
 import net.mariseto.maric.Maric;
+import net.mariseto.maric.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,18 @@ public class ModCreativeModeTabs {
                 .displayItems((itemDisplayParameters, output) -> {
                     output.accept(ModItems.OPALIUM_NUGGET.get());
                     output.accept(ModItems.OPALIUM_INGOT.get());
+                    output.accept(ModItems.DIAMOND_DUST.get());
+                    output.accept(ModItems.OPALIUM_DUST.get());
+
+                    output.accept(ModBlocks.OPALIUM_BLOCK.get());
+                    output.accept(ModBlocks.OPALIUM_BRICK_BLOCK.get());
+
+                    output.accept(ModBlocks.OPALIUM_ORE.get());
+
+
+
+
+
                 })
                 .build());
 

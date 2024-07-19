@@ -1,6 +1,7 @@
 package net.mariseto.maric;
 
 import com.mojang.logging.LogUtils;
+import net.mariseto.maric.block.ModBlocks;
 import net.mariseto.maric.item.ModCreativeModeTabs;
 import net.mariseto.maric.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,7 +33,7 @@ public class Maric
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

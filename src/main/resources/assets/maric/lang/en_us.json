@@ -1,5 +1,15 @@
 {
   "item.maric.opalium_nugget": "Opalium Nugget",
-  "item.maric.opalium_ingot": "Opalium Ingot"
+  "item.maric.opalium_ingot": "Opalium Ingot",
+  "item.maric.diamond_dust": "Diamond Dust",
+  "item.maric.opalium_dust": "Opalium Dust",
+
+  "block.maric.opalium_block": "Block of Opalium",
+  "block.maric.opalium_brick_block": "Opalium Bricks",
+
+  "block.maric.opalium_ore": "Opalium Ore",
+
+  "creativetab.maric_tab": "Maric"
+
 
 }

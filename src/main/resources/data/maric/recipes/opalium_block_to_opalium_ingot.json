@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "maric:opalium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "maric:opalium_ingot"
+  },
+  "show_notification": true
+}

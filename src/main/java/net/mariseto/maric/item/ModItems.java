@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> OPALIUM_NUGGET = ITEMS.register("opalium_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OPALIUM_INGOT = ITEMS.register("opalium_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_DUST = ITEMS.register("diamond_dust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> OPALIUM_DUST = ITEMS.register("opalium_dust", () -> new Item(new Item.Properties()));
 
 
 
