@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                     output.accept(ModItems.DIAMOND_DUST.get());
                     output.accept(ModItems.OPALIUM_DUST.get());
 
+                    output.accept(ModItems.BLOOCUP.get());
+
                     output.accept(ModItems.PIECE_OF_COAL.get());
 
                     output.accept(ModBlocks.OPALIUM_BLOCK.get());

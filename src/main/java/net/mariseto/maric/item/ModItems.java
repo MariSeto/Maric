@@ -2,6 +2,7 @@ package net.mariseto.maric.item;
 
 import net.mariseto.maric.Maric;
 import net.mariseto.maric.item.custom.FuelItem;
+import net.mariseto.maric.item.custom.ModFoods;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,7 +17,10 @@ public class ModItems {
     public static final RegistryObject<Item> OPALIUM_INGOT = ITEMS.register("opalium_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_DUST = ITEMS.register("diamond_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OPALIUM_DUST = ITEMS.register("opalium_dust", () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> PIECE_OF_COAL = ITEMS.register("piece_of_coal", () -> new FuelItem(new Item.Properties(), 200));
+
+    public static final RegistryObject<Item> BLOOCUP = ITEMS.register("bloocup", () -> new Item(new Item.Properties().food(ModFoods.BLOOCUP)));
 
 
 
