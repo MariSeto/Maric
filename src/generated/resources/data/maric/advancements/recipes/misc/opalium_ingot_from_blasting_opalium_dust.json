@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_opalium_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "maric:opalium_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "maric:opalium_ingot_from_blasting_opalium_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_opalium_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maric:opalium_ingot_from_blasting_opalium_dust"
+    ]
+  },
+  "sends_telemetry_event": false
+}

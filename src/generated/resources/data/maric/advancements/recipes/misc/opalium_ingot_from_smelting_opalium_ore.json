@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_opalium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "maric:opalium_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "maric:opalium_ingot_from_smelting_opalium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_opalium_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maric:opalium_ingot_from_smelting_opalium_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,10 @@
+// 1.20.1	2024-07-27T04:17:16.0982431	Block States: maric
+fa7e3aeccfe5ff6f8ec78fce7cbb783e87aa3458 assets/maric/blockstates/opalium_block.json
+b902c35f7be4454206a64269c637acb26761a74c assets/maric/blockstates/opalium_brick_block.json
+50ea14215d0e55704027790ee13583cda518c363 assets/maric/blockstates/opalium_ore.json
+8bb1c1a93ad1e7ddfaccea7d3870374d8ba51c52 assets/maric/models/block/opalium_block.json
+ccafd898d2428df2828240c818022c95ebc0f8f3 assets/maric/models/block/opalium_brick_block.json
+906d7615953ad6eb9fede992d1f9d9983f3af18f assets/maric/models/block/opalium_ore.json
+a8721792461f008558090bd01c007368f292512b assets/maric/models/item/opalium_block.json
+df5873f66e13be29a0dc51eecab5f74522117aff assets/maric/models/item/opalium_brick_block.json
+083a75067a0988b911cdf79355d5058568c58186 assets/maric/models/item/opalium_ore.json

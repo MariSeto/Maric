@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-27T04:17:16.0972418	Tags for minecraft:block mod id maric
+741d0f70759f1146c7bb4889f7916d60991a09e0 data/forge/tags/blocks/needs_netherite_tool.json
+51f45504d59a86d3889a1d901581302b1997450e data/minecraft/tags/blocks/mineable/pickaxe.json
+ec3f977160172f13313cd8b892f261cdf609fd10 data/minecraft/tags/blocks/needs_iron_tool.json
