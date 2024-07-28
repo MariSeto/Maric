@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "maric:opalium_block"
+  },
+  "result": "maric:opalium_brick_block"
+}

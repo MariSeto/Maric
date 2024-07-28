@@ -1,11 +1,13 @@
-// 1.20.1	2024-07-27T04:17:16.0982431	Recipes
+// 1.20.1	2024-07-28T03:27:33.5418305	Recipes
 14625119f5a7bd775779aeb6f5bf0aaf3f0d3694 data/maric/advancements/recipes/misc/opalium_block.json
+8a1773aa1c7a131765e4281f9fbc2d6bfa9f423e data/maric/advancements/recipes/misc/opalium_brick_block.json
 7f70ec80d7ad996b1bf548ddf5d9382aec2a241b data/maric/advancements/recipes/misc/opalium_ingot.json
 69d61029fd0bc2cfdcdb9b0c64e50f56b447a132 data/maric/advancements/recipes/misc/opalium_ingot_from_blasting_opalium_dust.json
 421f2029f729cdfc32b27f52339ccf46a15f9148 data/maric/advancements/recipes/misc/opalium_ingot_from_blasting_opalium_ore.json
 fa53fed704fcb243b92a4ce9b037287913475581 data/maric/advancements/recipes/misc/opalium_ingot_from_smelting_opalium_dust.json
 6495ec7df950adc2f8c4cb4d70b1e458fc9c76a9 data/maric/advancements/recipes/misc/opalium_ingot_from_smelting_opalium_ore.json
 e410121b57d34a24af7f9969e9e885462a080820 data/maric/recipes/opalium_block.json
+1b6e049d541711c7d2d505abd717b822f82af230 data/maric/recipes/opalium_brick_block.json
 ebd863b79022981184ea04778064b676cb8a7143 data/maric/recipes/opalium_ingot.json
 4714295c52bb259dd3eecd9eb5e8186ed8784529 data/maric/recipes/opalium_ingot_from_blasting_opalium_dust.json
 32ff00695452684c01ecf5431730f9b02e1d1ecb data/maric/recipes/opalium_ingot_from_blasting_opalium_ore.json

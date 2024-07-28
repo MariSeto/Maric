@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "maric:opalium_brick_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "opalium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "maric:opalium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "opalium_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "maric:opalium_brick_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

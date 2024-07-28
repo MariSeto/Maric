@@ -3,11 +3,13 @@ package net.mariseto.maric.datagen;
 import net.mariseto.maric.Maric;
 import net.mariseto.maric.block.ModBlocks;
 import net.mariseto.maric.item.ModItems;
+import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.StonecutterRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -44,9 +46,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.OPALIUM_BLOCK.get()), has(ModBlocks.OPALIUM_BLOCK.get()))
                 .save(pWriter);
 
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.OPALIUM_BLOCK.get()), RecipeCategory.MISC, ModBlocks.OPALIUM_BRICK_BLOCK.get(), 4)
+                .unlockedBy("opalium_block", inventoryTrigger(ItemPredicate.Builder.item().
+                        of(ModBlocks.OPALIUM_BLOCK.get()).build()))
+                .save(pWriter);
+
 
     }
-
+    protected static void stonecutterResultFromBase(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeCategory pCategory, ItemLike pResult, ItemLike pMaterial) {
+        stonecutterResultFromBase(pFinishedRecipeConsumer, pCategory, pResult, pMaterial, 1);
+    }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMELTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTIme, pGroup, "_from_smelting");
